@@ -141,3 +141,29 @@ function getFrequency() {
 }
 var temp = "the quick brown fox jumps over the lazy dog";
 getFrequency("the quick brown fox jumps over the lazy dog");
+
+//Date.prototype.addDays = function (days) {
+//    var dat = new Date(this.valueOf());
+//    dat.setDate(dat.getDate() + days);
+//    this.setTime(dat.getTime());
+//}
+
+//function getDates(startDate, stopDate) {
+//    var dateArray = new Array();
+//    startDate.setHours(0, 0, 0, 0);
+//    stopDate.setHours(0, 0, 0, 0);
+//    console.log(stopDate);
+//    var currentDate = startDate;
+  
+//    while (currentDate <= stopDate) {
+//      var curr = new Date();
+//      curr.setTime(currentDate.getTime());
+//      dateArray.push(curr);
+//      currentDate.addDays(1);
+//    }
+//    return dateArray;
+//}
+//console.log('test');
+//var dateArr = getDates(new Date(), new Date('11/20/2022'));
+
+//console.log(dateArr);
